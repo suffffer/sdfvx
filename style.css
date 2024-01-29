@@ -1,0 +1,1326 @@
+
+body{
+    margin: 0;
+    overflow-x: hidden /* убираем боковой скролл */;
+}
+.container{
+    margin: 0px 166px ;
+}
+header {
+    background-image: url(./img/bg.png);
+    background-repeat: no-repeat;
+    min-height: 2000px;
+    background-size: cover;
+
+}
+.nubmer{
+    color:white;
+}
+.header-line{
+justify-content: space-between;
+display: flex;
+align-items:center;
+}
+
+.phone{
+    display: flex;
+    gap: 20px;
+}
+.bigtext{
+    margin-top: 301px;
+    margin-left: 312px;
+}
+
+.chel{
+    margin-left: 1060px;
+    margin-top: -600px;
+    margin-right:312px;
+}
+
+.obvodka{
+    position: absolute;
+    display: inline-block;
+    margin-right:448px;
+    margin-left: 448px;
+}
+.toptext1{
+    margin-top:25px;
+    margin-left: 655px; 
+    font-size: 25px;
+    position: absolute; /* устанавливаете, чтоб элемент был родительский */
+
+}
+.text-container1{
+    width: 236px;
+    height: 72px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color:rgba(255, 255, 255, 1);
+    margin-left: 500px;
+    position: absolute;
+    text-align: center;
+}
+.top1{
+    color:rgba(255, 255, 255, 1);
+    font-size: 24px;
+}
+.top2{
+    color:rgba(255, 255, 255, 1);
+    font-size: 24px;
+}
+.top3{
+    color:rgba(255, 255, 255, 1);
+    font-size: 24px;
+}
+.text-container2{
+    width: 236px;
+    height: 72px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color:rgba(255, 255, 255, 1);
+    margin-left: 836px;
+    position: absolute;
+    text-align: center;
+}
+.text-container3{
+    width: 236px;
+    height: 72px;
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    color:rgba(255, 255, 255, 1);
+    margin-left: 1214px;
+    position: absolute;
+    text-align: center;
+}
+/* устаналиваем контент после надписи */
+.toptext1::before { 
+    content: ''; /* обязательное словие для псевдоэлемента before */
+    display: block; /* делаем элемент блочный */
+    width: 600px;/* устанавливаем ширину */
+    height: 600px;/* устанавливаем высоту */
+    position: absolute; /* задаем позицию абсолют, чтоб элемент был привязан к родителю
+    в данном случае это toptext1
+    */
+    background-image: url(./Vector.png); /* устанавливаем фон */
+    background-repeat: no-repeat; /* отключаем повторение фона */
+    /* с помощью top, left, right, botom можем теперь настраивать элемент */
+    left: 50px; /* от левого края будет отспуп 50px */
+    top: -50px; /* сверху элемент поднимется на 50px */
+}
+.toptext2::before { 
+content: ''; 
+display: block; 
+width: 600px;
+height: 600px;
+position: absolute; 
+margin-top: 900px;
+background-image: url(./img/Vector2.png); 
+background-repeat: no-repeat;
+left: 50px; 
+top: -50px; 
+}
+.image-list{
+    list-style: none;
+}
+.image-list li{
+    margin-bottom: 24px;
+}
+
+
+
+
+.bigtext2{
+    font-size: 48px;
+    margin-top: 300px;
+    text-align: center;
+}
+.opiscurs{
+    margin-left:323px;
+}
+.krug1{
+ margin-left:800px;
+ margin-top: -425px;
+}
+.krug2{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.krug3{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.krug4{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.krug5{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.krug6{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.krug7{
+    margin-left:800px;
+    margin-top: 24px;
+}
+.cursinfo1{
+    margin-top: 200px;
+    margin-left:282px;
+}
+.cursinfo2{
+    margin-top: -165px;
+    margin-left:370px;
+}
+.cursinfo3{
+    margin-top: -195px;
+    margin-left:750px;
+}
+.cursinfo4{
+    margin-top: -140px;
+    margin-left:850px;
+}
+.cursinfo5{  
+    margin-top: -160px;
+    margin-left:1230px;
+}
+.cursinfo6{
+    margin-top: -140px;
+    margin-left:1320px;
+}
+.programmacursa{
+    margin-top: 100px;
+}
+.whitefon{
+    width: 1280px;
+    height: 676px;
+margin-top: 100px;
+margin-left: 460px;
+margin-right: 320px;
+display: inline;
+}
+.toptext2{
+    color:black;
+
+    margin-top:-730px;
+    font-size: 48px;
+    text-align: center;
+    margin-left:490px;
+}
+.smalltext2{
+    margin-top:50px;
+    margin-left: 670px;
+    font-size: 17px;
+    color:grey;
+    word-wrap: break-word;
+    width: 1080px;
+    height: 48px;
+}
+.modul1{
+    margin-left: 670px;
+}
+.modul2{
+    margin-left: 670px;
+}
+.modul3{
+    margin-left: 670px;
+}
+.modul4{
+    margin-left: 670px;
+}
+.modul5{
+    margin-left: 670px;
+}
+.obvodka2{
+    margin-left:576px;
+    margin-top: 7%;
+}
+.uchiteltoptext{
+margin-top: 486px;
+}
+
+/* задаем ширину и ровняем блок по центру*/
+
+.wrapper {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: -700px;
+}
+
+
+/* устанавливаем элементы в один ряд*/
+.course__info {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.block1 {
+    display: flex; /* устанавливаем в один ряд текст и картинку */
+    width: 600px; /* устанавливаем ширину*/
+    height: 400px; /* устанавливаем высоту*/
+    /* устанавливаем картинку, делаем рапосоложение картинки и закругление картинки */
+    background-image: url(./empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering\ 1.png);
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-position-y: bottom;
+    background-size: cover;
+    border-radius: 25px;
+    position: relative;
+}
+
+/* поднимаем картинку вверх */
+.block1 img {
+    position: absolute;
+    transform: translateY(-102px);
+    margin-left: 313px;
+    top:40px;
+}
+.block-text h3{
+    margin-top: 120px;
+    font-size: 24px;
+    color:rgba(79, 35, 157, 1);
+    margin-left: 20px;
+}
+.block-text p{
+    color:rgba(0, 0, 0, 0.87);
+    width: 288px;
+    height: 48px;
+    margin-left: 20px;
+
+}
+.wrapper h2{
+    margin-bottom: 150px;
+    font-size:48px;
+    text-align: center;
+}
+.uchitel{
+    position: relative;
+}
+.uchiteltext{
+    position: relative;
+    font-size:48px;
+    margin-left: 670px;
+}
+.name{
+    font-size: 26px;
+    margin-left: 543px;
+    margin-top:50px;
+    position: absolute;
+}
+.text11{
+    margin-left: 605px;
+    margin-top:90px;
+    position: absolute;
+font-size: 20px;
+}
+.text2{
+    margin-left: 520px;
+    margin-top:118px;
+    position: absolute;
+   font-size: 28px;
+   color:rgba(0, 101, 255, 1);
+   width: 472px;
+   height: 96px;
+}
+.text3{
+    font-size: 16px;
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 156px;
+    width: 472px;
+   height: 96px;
+
+}
+.obvodka2{
+    margin-top: 50px;
+    position: relative;
+margin-left: 350px;
+width: 600px;
+height: 360px;
+}
+.uchitelimg{
+    margin-left:1170px;
+    margin-top: -660px;
+}
+.chertochka{
+    margin-left: 570px;
+    margin-top:70px;
+    position: absolute;
+}
+.stepcurstext{
+    margin-top: 200px;
+    color:white;
+    font-size: 48px;
+    text-align: center;
+}
+.img1{
+margin-top: 120px;
+position: absolute;
+margin-left: 500px;
+}
+.timg1{
+    margin-top: 132px;
+    position: absolute;
+    margin-left: 528px;
+    color: white;
+    font-size: 28px;
+}
+.timg2{
+margin-top: 180px;
+position: absolute;
+margin-left: 510px;
+color: white;
+width: 305px;
+height:48px;
+}
+.img2{
+margin-top: 250px;
+position: absolute;
+margin-left: 500px;
+}
+.timg3{
+    margin-top: 262px;
+    position: absolute;
+    margin-left: 528px;
+    color: white;
+    font-size: 28px;
+}
+.timg4{
+    margin-top: 310px;
+    position: absolute;
+    margin-left: 528px;
+    color: white;
+    width: 305px;
+    height:48px;
+}
+.img3{
+margin-top: 120px;
+position: absolute;
+margin-left: 1100px;
+}
+.timg5{
+    margin-top: 132px;
+    position: absolute;
+    margin-left: 1130px;
+    color: white;
+    font-size: 28px;
+}
+.timg6{
+    margin-top: 190px;
+    position: absolute;
+    margin-left: 1130px;
+    color: white;
+    width: 305px;
+    height:48px;
+}
+.img4{
+margin-top: 250px;
+position: absolute;
+margin-left: 1100px;
+}
+.timg7{
+    margin-top: 262px;
+    position: absolute;
+    margin-left: 1130px;
+    color: white;
+    font-size: 28px;
+}
+.timg8{
+    margin-top: 310px;
+    position: relative;
+    margin-left: 1130px;
+    color: white;
+    width: 305px;
+    height:48px;
+}
+.stoimost{
+    margin-top:320px;
+    text-align:center;
+    font-size:48px;
+    color:white;
+}
+.obeshanie{
+    text-align: center;
+    margin-top: 120px;
+    font-size:28px;
+    color:white;
+}
+.standart{
+    margin-left:500px;
+    margin-top:100px;
+}
+.standartplus{
+    margin-left:1100px;
+    margin-top:-573px;
+    position: absolute;
+}
+.text1stand{
+    margin-left:530px;
+    position: absolute;
+    color:white;
+    margin-top: -40px;
+}
+.text1standartplus{
+    margin-left:1150px;
+    position: absolute;
+    width: 243px;
+    height: 72px;
+    margin-top: -40px;
+    color:white;
+}
+.images-container {
+    margin-top: 100px;
+    flex-direction: column;
+    display: flex;
+    gap: 48px;
+    margin-left: 720px;
+    margin-right: 720px;
+}
+
+.images-container .belyi1,
+.images-container .belyi2,
+.images-container .belyi3 {
+    flex: 1;
+
+}
+.zapistext{
+    margin-top: 150px;
+    text-align: center;
+    font-size:48px;
+    color:white;
+}
+.zapisname{
+    margin-left:730px;
+    margin-top: 80px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapisname2{
+    margin-left:760px;
+    margin-top: -247px;
+    margin-right: 720px;
+    position: absolute;
+}
+.znachok1{
+    margin-left:730px;
+    margin-top: -250px;
+    margin-right: 720px;
+    position: absolute;
+}
+.znachok2{
+    margin-left:735px;
+    margin-top: -148px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapismail{
+    margin-left:735px;
+    margin-top: -178px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapisemail2{
+    margin-left:765px;
+    margin-top: -145px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapistel{
+    margin-left:735px;
+    margin-top: -72px;
+    margin-right: 720px;
+    position: absolute;
+}
+.znachok3{
+
+    margin-left:735px;
+    margin-top: -45px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zpistel2{
+    margin-left:765px;
+    margin-top: -42px;
+    margin-right: 720px;
+    position: absolute;
+}
+.end{
+    margin-top: 56px;
+    margin-left: 790px;
+    margin-right: 810px;
+}
+
+
+
+
+@media (max-width:880px) {
+    .bigtext {
+        margin-top: 301px;
+        margin-left: auto;
+    }
+    .chel {
+        margin-left: 110px;
+        margin-top: -102px;
+        margin-right: 312px;
+    }
+    .toptext1 {
+        margin-top: 25px;
+        margin-left: 164px;
+        font-size: 20px;
+        position: absolute;
+    }
+    .text-container1 {
+        width: 236px;
+        height: 72px;
+        margin-top: 130px;
+        display: flex;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 50px;
+        position: absolute;
+        text-align: center;
+    }
+    .text-container2 {
+        width: 236px;
+        height: 72px;
+        margin-top: 128px;
+        display: flex;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 309px;
+        position: absolute;
+        text-align: center;
+    }
+    .text-container3 {
+        width: 236px;
+        height: 72px;
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        color: rgba(255, 255, 255, 1);
+        margin-left: 589px;
+        position: absolute;
+        text-align: center;
+    }
+    .obvodka img{
+        width:850px;
+    }
+    .obvodka {
+        margin-left:1px;
+        position: absolute;
+        display: inline-block;
+    }
+    .wrapper h2 {
+        margin-bottom: 150px;
+        font-size: 48px;
+        text-align: center;
+        margin-top: 250px;
+    }
+    .block1 img {
+        position: absolute;
+        transform: translateY(-102px);
+        margin-left: 192px;
+        top: 228px;
+        width: 126px;
+    }
+    .image-list {
+        width: 10px;
+        margin-left: -603px;
+        list-style: none;
+    }
+    .block1 {
+        display: flex;
+        width: 290px;
+        height: 308px;
+        background-image: url(./empty-living-room-with-blue-sofa-plants-table-empty-white-wall-background-3d-rendering\ 1.png);
+        background-position-x: right;
+        background-repeat: no-repeat;
+        background-position-y: bottom;
+        background-size: cover;
+        border-radius: 25px;
+        position: relative;
+    }
+    .block-text h3 {
+        margin-top: 33px;
+        font-size: 20px;
+        color: rgba(79, 35, 157, 1);
+        margin-left: 20px;
+    }
+    .image-list {
+        width: 10px;
+        margin-left: -604px;
+        list-style: none;
+    }
+    .cursinfo1 {
+        margin-top: 100px;
+        margin-left: 0px;
+    }
+    .cursinfo2 {
+        margin-top: -165px;
+        margin-left: 79px;
+    }
+    .cursinfo3 {
+        margin-top: -45px;
+        margin-left: 388px;
+    }
+    .cursinfo4 {
+        margin-top: -173px;
+        margin-left: 480px;
+    }
+    .cursinfo5 {
+        margin-top: -36px;
+        margin-left: 387px;
+    }
+    .cursinfo6 {
+        margin-top: -140px;
+        margin-left: 194px;
+    }
+    element.style {
+        width: 850px;
+    }
+    .smalltext2 {
+        margin-top: 23px;
+        margin-left: 40px;
+        font-size: 17px;
+        color: grey;
+        word-wrap: break-word;
+        width: 802px;
+        height: 48px;
+        }
+        .toptext2 {
+            color: black;
+            margin-top: -469px;
+            font-size: 48px;
+            margin-left: 57px;
+        }
+        .modul1 {
+            margin-left: 37px;
+        }
+        .modul2 {
+            margin-left: 37px;
+        }
+        .modul3 {
+            margin-left: 37px;
+        }
+        .modul4 {
+            margin-left: 37px;
+        }
+        .modul5 {
+            margin-left: 37px;
+        }
+        .modul1 img{
+            width:780px;
+        }
+        .modul2 img{
+            width:780px;
+        }
+        .modul3 img{
+            width:780px;
+        }
+        .modul4 img{
+            width:780px;
+        }
+        .modul5 img{
+            width:780px;
+        }
+        .whitefon {
+            width: 734px;
+            height: 676px;
+            margin-top: 100px;
+            margin-left: 5px;
+            margin-right: 320px;
+            display: inline;
+        }
+        .whitefon img{
+            width: 850px;
+        }
+        .uchiteltext {
+            position: relative;
+            font-size: 48px;
+            margin-left: 241px;
+        }
+        .name {
+            font-size: 26px;
+            margin-left: 343px;
+            margin-top: 50px;
+            position: absolute;
+        }
+        .chertochka {
+            margin-left: 370px;
+            margin-top: 70px;
+            position: absolute;
+        }
+        .text11 {
+            margin-left: 405px;
+            margin-top: 90px;
+            position: absolute;
+            font-size: 20px;
+        }
+        .text2 {
+            margin-left: 320px;
+            margin-top: 118px;
+            position: absolute;
+            font-size: 28px;
+            color: rgba(0, 101, 255, 1);
+            width: 472px;
+            height: 96px;
+        }
+        .text3 {
+            font-size: 16px;
+            position: absolute;
+            margin-left: 250px;
+            margin-top: 156px;
+            width: 472px;
+            height: 96px;
+        }
+        .obvodka2 {
+            margin-top: 50px;
+            position: relative;
+            margin-left: 150px;
+            width: 600px;
+            height: 360px;
+        }
+        .img1 {
+            margin-top: 120px;
+            position: absolute;
+            margin-left: 10px;
+        }
+        .timg1 {
+            margin-top: 132px;
+            position: absolute;
+            margin-left: 28px;
+            color: white;
+            font-size: 28px;
+        }
+        .timg2 {
+            margin-top: 180px;
+            position: absolute;
+            margin-left: 14px;
+            color: white;
+            width: 305px;
+            height: 48px;
+        }
+        .img2 {
+            margin-top: 250px;
+            position: absolute;
+            margin-left: 10px;
+        }
+        .timg4 {
+            margin-top: 310px;
+            position: absolute;
+            margin-left: 28px;
+            color: white;
+            width: 305px;
+            height: 48px;
+        }
+        .img3 {
+            margin-top: 120px;
+            position: absolute;
+            margin-left: 448px;
+        }
+        .timg3 {
+            margin-top: 262px;
+            position: absolute;
+            margin-left: 28px;
+            color: white;
+            font-size: 28px;
+        }
+        .timg5 {
+            margin-top: 132px;
+            position: absolute;
+            margin-left: 458px;
+            color: white;
+            font-size: 28px;
+        }
+        .timg6 {
+            margin-top: 190px;
+            position: absolute;
+            margin-left: 458px;
+            color: white;
+            width: 305px;
+            height: 48px;
+        }
+        .img4 {
+            margin-top: 250px;
+            position: absolute;
+            margin-left: 448px;
+        }
+        .timg7 {
+            margin-top: 262px;
+            position: absolute;
+            margin-left: 458px;
+            color: white;
+            font-size: 28px;
+        }
+        .timg8 {
+            margin-top: 310px;
+            position: relative;
+            margin-left: 458px;
+            color: white;
+            width: 305px;
+            height: 48px;
+        }
+        .images-container {
+            margin-top: 100px;
+            flex-direction: column;
+            display: flex;
+            gap: 48px;
+            margin-left: 54px;
+            margin-right: 720px;
+        }
+        .znachok1 {
+            margin-left: 70px;
+            margin-top: -250px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zapisname {
+            margin-left: 60px;
+            margin-top: 80px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zapisname2 {
+            margin-left: 100px;
+            margin-top: -255px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zapismail {
+            margin-left: 60px;
+            margin-top: -178px;
+            margin-right: 673px;
+            position: absolute;
+        }
+        .znachok2 {
+            margin-left: 70px;
+            margin-top: -148px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .znachok3 {
+            margin-left: 70px;
+            margin-top: -45px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zpistel2 {
+            margin-left: 100px;
+            margin-top: -42px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zapistel {
+            margin-left: 63px;
+            margin-top: -72px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .zapisemail2 {
+            margin-left: 100px;
+            margin-top: -149px;
+            margin-right: 720px;
+            position: absolute;
+        }
+        .end {
+            margin-top: 56px;
+            margin-left: 250px;
+            margin-right: 810px;
+        }
+        .standartplus {
+            margin-left: 100px;
+            margin-top: -575px;
+            position: absolute;
+        }
+        .text1standartplus {
+            margin-left: 130px;
+            position: absolute;
+            width: 243px;
+            height: 72px;
+            margin-top: -40px;
+            color: white;
+        }
+}
+@media (max-width:440px){
+    header {
+        background-image: url(./img/bg.png);
+        background-repeat: no-repeat;
+        min-height: 1329px;
+        background-size: cover;
+      }
+    .header-line {
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+        margin-left: -150px;
+      }
+      .bigtext img{
+        width:419px;
+        }
+        .bigtext {
+            margin-top: 301px;
+            margin-left: 0;
+          }
+        .smalltext img{
+        width:440px;
+        }
+        .chel {
+            margin-left: 72px;
+            margin-top: -40px;
+            margin-right: 312px;
+          }
+        .chel img{
+        width:300px;
+        }
+        .obvodka img {
+            width: 437px;
+            height: 323px;
+          }
+          .toptext1 {
+            margin-top: 25px;
+            margin-left: 35px;
+            font-size: 12px;
+            position: absolute;
+          }
+        .toptext1 {
+            font-size: 12px;
+          }
+        .top1 {
+          color: rgba(255, 255, 255, 1);
+          font-size: 18px;
+        }        
+          .top2{
+        font-size:18px;
+          }
+          .text-container1 {
+            width: 120px;
+            height: 72px;
+            margin-top: 78px;
+            display: flex;
+            flex-direction: column;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 8px;
+            position: absolute;
+            text-align: center;
+          }
+          .text-container2 {
+            width: 169px;
+            height: 72px;
+            margin-top: 75px;
+            display: flex;
+            flex-direction: column;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 135px;
+            position: absolute;
+            text-align: center;
+            font-size: 18px;
+          }
+          .text-container2 {
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            font-size: 18px;
+          }
+          .text-container3 {
+            width: 112px;
+            height: 72px;
+            margin-top: 75px;
+            display: flex;
+            flex-direction: column;
+            color: rgba(255, 255, 255, 1);
+            margin-left: 300px;
+            position: absolute;
+            text-align: center;
+            font-size: 12px;
+          }
+        .top3 {
+          color: rgba(255, 255, 255, 1);
+          font-size: 16px;
+        }
+        .image-list {
+            width: 10px;
+            margin-left: -471px;
+            list-style: none;
+            position: absolute;
+            margin-top: 320px;
+        }
+       .image-list img{
+        height: 18px;
+       }
+       .cursinfo1 {
+        margin-top: 305px;
+        margin-left: 0px;
+    }
+    .cursinfo2 {
+        margin-top: -358px;
+        margin-left: 79px;
+    }
+    .cursinfo2 img{
+        margin-top: 200px;
+        margin-left: 30px;
+    }
+    .cursinfo3 {
+        margin-top: -33px;
+        margin-left: 197px;
+    }
+    .cursinfo4 {
+        margin-top: -181px;
+        margin-left: -3px;
+    }
+    .cursinfo5 {
+        margin-top: -38px;
+        margin-left: 3px;
+    }
+    .cursinfo6 {
+        margin-top: -139px;
+        margin-left: 113px;
+    }
+    .toptext2 {
+        color: black;
+        margin-top: -616px;
+        font-size: 37px;
+        margin-left: 20px;
+    }
+    .whitefon img {
+        width: 440px;
+        height: 700px;
+    }
+    .smalltext2 {
+        margin-top: 23px;
+        margin-left: 40px;
+        font-size: 17px;
+        color: grey;
+        word-wrap: break-word;
+        width: 374px;
+        height: 48px;
+    }
+    .modul1 img {
+        margin-top: 60px;
+        width: 387px;
+        height: 32px;
+    }
+    .modul2 img {
+        width: 387px;
+        height: 32px;
+    }
+    .modul3 img {
+        width: 387px;
+        height: 32px;
+    }
+    .modul4 img {
+        width: 387px;
+        height: 32px;
+    }
+    .modul5 img {
+        width: 387px;
+        height: 32px;
+    }
+    .obvodka2 img{
+            width: 430px;
+            height: 271px;
+    }
+    .uchiteltext {
+        position: relative;
+        font-size: 38px;
+        margin-left: 3px;
+    }
+    .name {
+        font-size: 26px;
+        margin-left: 100px;
+        margin-top: 50px;
+        position: absolute;
+    }
+    .chertochka {
+        margin-left: 125px;
+        margin-top: 70px;
+        position: absolute;
+    }
+    .text11 {
+        margin-left: 165px;
+        margin-top: 90px;
+        position: absolute;
+        font-size: 20px;
+    }
+    .text2 {
+        margin-left: 76px;
+        margin-top: 118px;
+        position: absolute;
+        font-size: 28px;
+        color: rgba(0, 101, 255, 1);
+        width: 472px;
+        height: 96px;
+    }
+    .text3 {
+        font-size: 16px;
+        position: absolute;
+        margin-left: 54px;
+        margin-top: 156px;
+        width: 318px;
+        height: 96px;
+    }
+    .obvodka2 {
+        margin-top: 50px;
+        position: relative;
+        margin-left: 5px;
+        width: 600px;
+        height: 360px;
+    }
+    .img3 {
+        margin-top: 371px;
+        position: absolute;
+        margin-left: 11px;
+    }
+    .timg5 {
+        margin-top: 382px;
+        position: absolute;
+        margin-left: 27px;
+        color: white;
+        font-size: 28px;
+    }
+    .timg6 {
+        margin-top: 428px;
+        position: absolute;
+        margin-left: 14px;
+        color: white;
+        width: 305px;
+        height: 48px;
+    }
+    .img4 {
+        margin-top: 467px;
+        position: absolute;
+        margin-left: 11px;
+    }
+    .timg7 {
+        margin-top: 478px;
+        position: absolute;
+        margin-left: 29px;
+        color: white;
+        font-size: 28px;
+    }
+    .timg8 {
+        margin-top: 519px;
+        position: relative;
+        margin-left: 18px;
+        color: white;
+        width: 305px;
+        height: 48px;
+    }
+    .stoimost {
+        margin-top: 29px;
+        text-align: center;
+        font-size: 48px;
+        color: white;
+    }
+ .standartplus img{
+    width: 250px;
+ }
+ .standart img{
+    width: 250px;
+ }
+ .standart {
+    margin-left: 208px;
+    margin-top: 13px;
+}
+.standartplus {
+    margin-left: -21px;
+    margin-top: -425px;
+    position: absolute;
+}
+.text1stand {
+    position: absolute;
+    color: white;
+    margin-top: -29px;
+    margin-left: 0px;
+}
+.text1standartplus {
+    margin-left: 232px;
+    position: absolute;
+    width: 243px;
+    height: 72px;
+    margin-top: -26px;
+    color: white;
+}
+.belyi1 img{
+    width: 430px;
+}
+.belyi2 img{
+    width: 430px;
+}
+.belyi3 img{
+    width: 430px;
+}
+.znachok1 {
+    margin-left: 17px;
+    margin-top: -240px;
+    margin-right: 720px;
+    position: absolute;
+}
+.znachok2 {
+    margin-left: 17px;
+    margin-top: -140px;
+    margin-right: 720px;
+    position: absolute;
+}
+.znachok3 {
+    margin-left: 17px;
+    margin-top: -40px;
+    margin-right: 720px;
+    position: absolute;
+}
+.images-container {
+    margin-top: 30px;
+    flex-direction: column;
+    display: flex;
+    gap: 48px;
+    margin-left: 8px;
+    margin-right: 720px;
+}
+.zapismail {
+    margin-left: 17px;
+    margin-top: -202px;
+    margin-right: 673px;
+    position: absolute;
+}
+.zapisemail2 {
+    margin-left: 57px;
+    margin-top: -149px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapisname2 {
+    margin-left: 17px;
+    margin-top: -280px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapisname {
+    margin-left: 60px;
+    margin-top: 33px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zapistel {
+    margin-left: 12px;
+    margin-top: -85px;
+    margin-right: 720px;
+    position: absolute;
+}
+.zpistel2 {
+    margin-left: 54px;
+    margin-top: -38px;
+    margin-right: 720px;
+    position: absolute;
+}
+.end {
+    margin-top: 56px;
+    margin-left: 37px;
+    margin-right: 810px;
+}
+
+}
+
